@@ -40,7 +40,6 @@ namespace DesafioProjetoHospedagem.Models
 
         public decimal CalcularValorDiaria()
         {
-            // Retorna o valor da diária
             // Cálculo: DiasReservados X Suite.ValorDiaria
             if (Suite == null)
             {
